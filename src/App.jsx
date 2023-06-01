@@ -1,6 +1,6 @@
-
 import './App.css'
-import Card from './components/Card'
+import MiNuevoFormulario from './components/MiNuevoFormulario'
+
 
 function App() {
 
@@ -8,9 +8,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>Carga de Estudiantes</h1>
-        <form></form>
-        <Card/>
+        <h1>Conociendo tu color</h1>
+        <MiNuevoFormulario/>
       </div>
     </>
   )
